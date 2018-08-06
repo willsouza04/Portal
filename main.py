@@ -15,6 +15,7 @@ def run_game():
     screen = pygame.display.set_mode((screenSize), pygame.FULLSCREEN)
 
     settings = Settings(screenSize)
+    settings.g_speed = settings.g_speed / 65
 
     portais = Group()
     portal_inicial = Portal(settings, screen, None)

@@ -11,4 +11,5 @@ class Settings():
 
         self.ball_color = (255, 255, 255)
         self.ball_size = 50
-        self.g_speed = 0.15
+		
+        self.g_speed = 9.8
