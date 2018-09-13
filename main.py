@@ -19,7 +19,6 @@ def run_game():
 
     portais = Group()
     portal_inicial = Portal(settings, screen, None)
-
     portais.add(portal_inicial)
 
     ball = Ball(settings, screen)
